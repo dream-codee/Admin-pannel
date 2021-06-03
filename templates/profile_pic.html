@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    <title>PIC PAGE</title>
+{% endblock %}
+
+{% block content %}
+<center>
+    <br><br>
+    <img src="{% static 'images/im1.jpeg' %}" alt="DSATM" width="75" height="100"><br><br>
+    <h1>{{name}}</h1>
+</center>
+{% endblock %}
